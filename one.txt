@@ -1,4 +1,6 @@
 Hello world.
 hi world.
 
+salam world.
+
 This is the first type of greeting.
