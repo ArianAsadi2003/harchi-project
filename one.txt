@@ -1,0 +1,4 @@
+Hello world.
+hi world.
+
+This is the first type of greeting.
