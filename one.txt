@@ -1,7 +1,19 @@
-Hello world.
-hi world.
+<?php
+$host = 'localhost';
+$db = 'address-book';
+$user = 'root';
+$pass = 'root';
 
-salam world.
-slm world.
+// اتصال به دیتابیس
+$conn = new mysqli($host, $user, $pass, $db);
 
-This is the first type of greeting.
+// بررسی اتصال
+if ($conn->connect_error) {
+    die("اتصال به دیتابیس با خطا مواجه شد: " . $conn->connect_error);
+}
+
+// کدهای دیگر در این قسمت قرار می‌گیرند...
+
+// بستن اتصال
+$conn->close();
+?>
